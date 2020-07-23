@@ -31,13 +31,14 @@
 .Content-div {
   background-color: #000;
   margin: 1vw 0;
-  padding: 5vw;
+  padding: 3vw;
   min-height: 25vh;
   width: 100vw;
 }
 
 h1 {
   margin: 0;
+  margin-top: 5vh;
 }
 
 ul, li {
