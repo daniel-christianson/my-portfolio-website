@@ -1,15 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ChangeListManager">
+    <list default="true" id="0ce99df8-53f9-4a80-bb82-9f339c1fc2df" name="Default Changelist" comment="set up initial navigation tabs with useState">
+      <change afterPath="$PROJECT_DIR$/src/abt/abt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cnt/cnt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hom/hom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prg/prg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prt/prt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="c4a1c4ad-f370-4580-90c8-3a5aadcf7cad" />
+  </component>
+  <component name="ProjectId" id="1f2zaHS1I2hY8YYeN8mGBg5HQZm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ce99df8-53f9-4a80-bb82-9f339c1fc2df" name="Default Changelist" comment="" />
+      <created>1595365713885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595365713885</updated>
+      <workItem from="1595365716481" duration="1524000" />
+      <workItem from="1595373352210" duration="1556000" />
+      <workItem from="1595431043425" duration="20910000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="set up initial navigation tabs with useState" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up initial navigation tabs with useState" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="598" y="320" key="#Notifications" timestamp="1595467426984">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="598" y="320" key="#Notifications/0.0.1440.896@0.0.1440.896" timestamp="1595467426984" />
+    <state x="269" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1595467439226">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="269" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.896@0.0.1440.896" timestamp="1595467439226" />
+    <state x="278" y="25" key="CommitChangelistDialog2" timestamp="1595473816965">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="278" y="25" key="CommitChangelistDialog2/0.0.1440.896@0.0.1440.896" timestamp="1595473816965" />
+    <state x="589" y="354" key="Github.ShareDialog" timestamp="1595459381119">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="589" y="354" key="Github.ShareDialog/0.0.1440.896@0.0.1440.896" timestamp="1595459381119" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1595457892977">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.896@0.0.1440.896" timestamp="1595457892977" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1595467163286">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.896@0.0.1440.896" timestamp="1595467163286" />
   </component>
   <component name="masterDetails">
     <states>
