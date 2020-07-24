@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ce99df8-53f9-4a80-bb82-9f339c1fc2df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AppOld.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rsm/rsm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppNew.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hom/hom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hom/hom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppOld.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppOld.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -74,7 +75,7 @@
       <updated>1595365713885</updated>
       <workItem from="1595365716481" duration="1524000" />
       <workItem from="1595373352210" duration="1556000" />
-      <workItem from="1595431043425" duration="31420000" />
+      <workItem from="1595431043425" duration="38265000" />
     </task>
     <task id="LOCAL-00001" summary="set up initial navigation tabs with useState">
       <created>1595474149098</created>
@@ -83,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595474149098</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="trying a different way to format the app file">
+      <created>1595547975876</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595547975876</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,7 +99,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="set up initial navigation tabs with useState" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up initial navigation tabs with useState" />
+    <MESSAGE value="trying a different way to format the app file" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying a different way to format the app file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="320" key="#Notifications" timestamp="1595467426984">
@@ -102,10 +111,10 @@
       <screen x="0" y="0" width="1440" height="896" />
     </state>
     <state x="269" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.896@0.0.1440.896" timestamp="1595467439226" />
-    <state x="278" y="25" key="CommitChangelistDialog2" timestamp="1595474350541">
+    <state x="278" y="25" key="CommitChangelistDialog2" timestamp="1595547975668">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
-    <state x="278" y="25" key="CommitChangelistDialog2/0.0.1440.896@0.0.1440.896" timestamp="1595474350541" />
+    <state x="278" y="25" key="CommitChangelistDialog2/0.0.1440.896@0.0.1440.896" timestamp="1595547975668" />
     <state x="589" y="354" key="Github.ShareDialog" timestamp="1595459381119">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
@@ -114,10 +123,10 @@
       <screen x="0" y="0" width="1440" height="896" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.896@0.0.1440.896" timestamp="1595457892977" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1595475403739">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1595547988273">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.896@0.0.1440.896" timestamp="1595475403739" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.896@0.0.1440.896" timestamp="1595547988273" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1595467163286">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
