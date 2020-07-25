@@ -12,6 +12,7 @@ import Resume from './rsm/rsm.js'
 import Portfolio from './prt/prt.js'
 import Programming from './prg/prg.js'
 import Contact from './cnt/cnt.js'
+import Nav from './nav.js'
 
 function AppNew() {
     return(
@@ -19,21 +20,23 @@ function AppNew() {
             <div className="App">
                 <header className="App-header">
                     <ul>
-                        <li><Link to={"/Home"}>Home</Link></li>
-                        <li><Link to={"/About"}>About</Link></li>
-                        <li><Link to={"/Resume"}>Resume</Link></li>
-                        <li><Link to={"/Portfolio"}>Portfolio</Link></li>
-                        <li><Link to={"/Programming"}>Programming</Link></li>
-                        <li><Link to={"/Contact"}>Contact</Link></li>
+                        <li><Link to={"/home"}>Home</Link></li>
+                        <li><Link to={"/about"}>About</Link></li>
+                        <li><Link to={"/resume"}>Resume</Link></li>
+                        <li><Link to={"/portfolio"}>Portfolio</Link></li>
+                        <li><Link to={"/programming"}>Programming</Link></li>
+                        <li><Link to={"/contact"}>Contact</Link></li>
                     </ul>
 
+                    <Nav />
+
                     <Switch>
-                        <Route path="/Home"><Home /></Route>
-                        <Route path="/About"><About /></Route>
-                        <Route path="/Resume"><Resume /></Route>
-                        <Route path="/Portfolio"><Portfolio /></Route>
-                        <Route path="/Programming"><Programming /></Route>
-                        <Route path="/Contact"><Contact /></Route>
+                        <Route path="/home"><Home /></Route>
+                        <Route path="/about"><About /></Route>
+                        <Route path="/resume"><Resume /></Route>
+                        <Route path="/portfolio"><Portfolio /></Route>
+                        <Route path="/programming"><Programming /></Route>
+                        <Route path="/contact"><Contact /></Route>
                     </Switch>
                 </header>
             </div>
