@@ -33,7 +33,7 @@
   margin: 1vw 0;
   padding: 3vw;
   min-height: 25vh;
-  width: 100vw;
+  width: 90vw;
 }
 
 h1 {
@@ -51,6 +51,11 @@ li {
   background-color: #172234;
   margin: .5vw;
   padding: 1.5vw 2vw;
+}
+
+.Link-Tag {
+  background-color: #330000;
+  padding: 5vw 5vw;
 }
 
 @keyframes App-logo-spin {
