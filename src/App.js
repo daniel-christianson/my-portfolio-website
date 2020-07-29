@@ -12,30 +12,18 @@ import Resume from './rsm/rsm.js'
 import Portfolio from './prt/prt.js'
 import Programming from './prg/prg.js'
 import Contact from './cnt/cnt.js'
-import logo from './logo.svg';
-
-function ListItem(props) {
-  const navClick = () => props.onClickFunction(props.thisDiv);
-  return (
-    <li onClick={navClick}>
-      <Link className="Link-Tag" to={"/" + props.navName}>
-        {props.navName}
-      </Link>
-      <Switch>
-        <Route path={"/" + props.navName}>{props.thisDiv}</Route>
-      </Switch>
-    </li>
-  );
-}
-
-function Display(props) {
-  return (
-      props.divName
-  );
-}
 
 function App(){
-  const navList = [<Home />, <About />, <Resume />, <Portfolio />, <Programming />, <Contact />];
+  const navObj = [
+      {name: "home", dv: <Home />},
+      {name: "about", dv: <About />},
+      {name: "resume", dv: <Resume />},
+      {name: "portfolio", dv: <Portfolio />},
+      {name: "programming", dv: <Programming />},
+      {name: "contact", dv: <Contact />}
+  ];
+  const links = navObj.map(item => (<li><Link to={"/" + item.name}>{item.name.charAt(0).toUpperCase() + item.name.slice(1)}</Link></li>));
+  const routes = navObj.map(item => (<Route path={"/" + item.name}>{item.dv}</Route>));
   return(
       <Router>
         <div className="App">
@@ -43,43 +31,15 @@ function App(){
             <h1>Daniel Christianson</h1>
             <h2>Resume and Portfolio</h2>
             <ul>
-              <li>
-                <Link>
-
-                </Link>
-                <Switch>
-
-                </Switch>
-              </li>
+                {links}
             </ul>
+            <Switch>
+                {routes}
+            </Switch>
           </header>
         </div>
       </Router>
   );
 }
-
-// function App() {
-//   const [name, setDiv] = useState(<Home />);
-//   const changeDiv = (blah) => setDiv(blah);
-//   return (
-//     <Router>
-//       <div className="App">
-//         <header className="App-header">
-//           <h1>Daniel Christianson</h1>
-//           <h2>Resume and Portfolio</h2>
-//           <ul>
-//             <ListItem onClickFunction={changeDiv} navName={'Home'} thisDiv={<Home />}/>
-//             <ListItem onClickFunction={changeDiv} navName={'About'} thisDiv={<About />}/>
-//             <ListItem onClickFunction={changeDiv} navName={'Resume'} thisDiv={<Resume />}/>
-//             <ListItem onClickFunction={changeDiv} navName={'Portfolio'} thisDiv={<Portfolio />}/>
-//             <ListItem onClickFunction={changeDiv} navName={'Programming'} thisDiv={<Programming />}/>
-//             <ListItem onClickFunction={changeDiv} navName={'Contact'} thisDiv={<Contact />}/>
-//           </ul>
-//           <Display divName={name}/>
-//         </header>
-//       </div>
-//     </Router>
-//   );
-// }
 
 export default App;

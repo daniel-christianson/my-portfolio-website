@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import AppOld from './AppOld';
-import AppNew from './AppNew';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    {/*<AppNew />*/}
   </React.StrictMode>,
   document.getElementById('root')
 );
