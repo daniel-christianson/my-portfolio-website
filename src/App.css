@@ -67,6 +67,11 @@ ul {
   padding: 1.5vw 2vw;
 }
 
+.Resume-Iframe {
+  width: 90vw;
+  height: 50vh;
+}
+
 .Portfolio-List {
   list-style: none;
 }
