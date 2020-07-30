@@ -4,7 +4,13 @@ import '../App.css';
 function Portfolio() {
     return(
         <div className="Content-div">
-            THIS IS THE PORTFOLIO DIV
+            <ul className="Portfolio-List">
+                <li>- PAINTING -</li>
+                <li>- DIGITAL -</li>
+                <li>- ANIMATION -</li>
+                <li>- GRAPHIC DESIGN -</li>
+                <li>- VIDEO GAME WORK -</li>
+            </ul>
         </div>
     );
 }

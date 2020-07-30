@@ -5,7 +5,6 @@ function Home() {
     const name = "home";
     return(
         <div className="Content-div">
-            THIS IS THE HOME DIV
             {/*<header className="App-header">*/}
             {/*    <h1>Daniel Christianson</h1>*/}
             {/*    <h2>Resume and Portfolio</h2>*/}

@@ -5,8 +5,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppNew.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppOld.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abt/abt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/abt/abt.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hom/hom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hom/hom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prg/prg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/prg/prg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prt/prt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/prt/prt.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +78,7 @@
       <updated>1595365713885</updated>
       <workItem from="1595365716481" duration="1524000" />
       <workItem from="1595373352210" duration="1556000" />
-      <workItem from="1595431043425" duration="59678000" />
+      <workItem from="1595431043425" duration="83456000" />
     </task>
     <task id="LOCAL-00001" summary="set up initial navigation tabs with useState">
       <created>1595474149098</created>
@@ -109,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595998394249</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated navigation functionality to work with arr.map so navigation items are automated">
+      <created>1596052479215</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596052479215</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +134,8 @@
     <MESSAGE value="added react router for managing URL names" />
     <MESSAGE value="added nav module" />
     <MESSAGE value="updated app.js to work with new navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated app.js to work with new navigation" />
+    <MESSAGE value="updated navigation functionality to work with arr.map so navigation items are automated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated navigation functionality to work with arr.map so navigation items are automated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="320" key="#Notifications" timestamp="1595467426984">
@@ -132,10 +146,14 @@
       <screen x="0" y="0" width="1440" height="896" />
     </state>
     <state x="269" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.896@0.0.1440.896" timestamp="1595467439226" />
-    <state x="329" y="23" key="CommitChangelistDialog2" timestamp="1595998394078">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596081144625">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
-    <state x="329" y="23" key="CommitChangelistDialog2/0.0.1440.896@0.0.1440.896" timestamp="1595998394078" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.896@0.0.1440.896" timestamp="1596081144625" />
+    <state x="329" y="23" key="CommitChangelistDialog2" timestamp="1596052479048">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="329" y="23" key="CommitChangelistDialog2/0.0.1440.896@0.0.1440.896" timestamp="1596052479048" />
     <state x="589" y="354" key="Github.ShareDialog" timestamp="1595459381119">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
@@ -144,14 +162,14 @@
       <screen x="0" y="0" width="1440" height="896" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.896@0.0.1440.896" timestamp="1595457892977" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1595998401828">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1596052486344">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.896@0.0.1440.896" timestamp="1595998401828" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1595467163286">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.896@0.0.1440.896" timestamp="1596052486344" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1596070965438">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.896@0.0.1440.896" timestamp="1595467163286" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.896@0.0.1440.896" timestamp="1596070965438" />
   </component>
   <component name="masterDetails">
     <states>

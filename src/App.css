@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -14,7 +15,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -34,6 +34,8 @@
   padding: 3vw;
   min-height: 25vh;
   width: 90vw;
+  position: absolute;
+  top: 20vmax;
 }
 
 h1 {
@@ -41,20 +43,30 @@ h1 {
   margin-top: 5vh;
 }
 
-ul, li {
-  display: inline;
+ul {
   padding: 0 2vw;
   color: white;
 }
+.Home-Div {
+  position: relative;
+  top: -5vh;
+}
 
-li {
+.Nav-List {
+  position: absolute;
+  top: 10vmax;
+}
+
+.Nav-List-Item {
+  display: inline;
+}
+
+.Link-Tag {
   background-color: #172234;
   margin: .5vw;
   padding: 1.5vw 2vw;
 }
 
-.Link-Tag {
-  background-color: #330000;
-  padding: 5vw 5vw;
+.Portfolio-List {
+  list-style: none;
 }
-
