@@ -9,17 +9,36 @@ import {
 import './App.css';
 import navigationArray from './Nav.js'
 
-function LinksList(){
+function NavigationListItems(){
     const location = useLocation();
-    const links = navigationArray.map(function(item) {
-        if(location.pathname !== ("/" + item.name)){
-            return <li className="Nav-List-Item"><Link className="Link-Tag" to={"/" + item.name}>{item.name.charAt(0).toUpperCase() + item.name.slice(1)}</Link></li>
-        } else if (location.pathname === '/home'){
-            return (
-                <div className="Home-Div">
-                    <h1>Daniel Christianson</h1>
-                    <h2>Resume and Portfolio</h2>
-                </div>
+    const links = navigationArray.map(function(item){
+        if (location.pathname === "/home" && location.pathname === ("/" + item.name)){
+            // homepage list items (no home list item will appear when on the homepage)
+            return null;
+        } else if (location.pathname === "/home" && location.pathname !== ("/" + item.name)){
+            // homepage list items (all other list items when on the homepage)
+            return(
+                <li className="Home-Nav-List-Item">
+                    <Link className="Link-Tag" to={"/" + item.name}>
+                        {item.name.charAt(0).toUpperCase() + item.name.slice(1)}
+                    </Link>
+                </li>
+            );
+        } else if (location.pathname === ("/" + item.name)){
+            // non-homepage list items (current page list item is not a link)
+            return(
+                <li className="Nav-List-Item-Selected">
+                    {item.name.charAt(0).toUpperCase() + item.name.slice(1)}
+                </li>
+            );
+        } else {
+            // non-homepage list items (all other list items when NOT on homepage)
+            return(
+                <li className="Nav-List-Item">
+                    <Link className="Link-Tag" to={"/" + item.name}>
+                        {item.name.charAt(0).toUpperCase() + item.name.slice(1)}
+                    </Link>
+                </li>
             );
         }
     })
@@ -38,10 +57,10 @@ function Routes(){
 function App(){
     return(
         <Router>
-            <div className="App">
-                <header className="App-header">
-                    <ul className="Nav-List">
-                        <LinksList />
+            <div className="App-Div">
+                <header className="App-Header">
+                    <ul>
+                        <NavigationListItems />
                     </ul>
                     <Switch>
                         <Routes />

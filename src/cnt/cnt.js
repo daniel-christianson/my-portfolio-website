@@ -3,8 +3,10 @@ import '../App.css';
 
 function Contact() {
     return(
-        <div className="Content-div">
-            THIS IS THE CONTACT DIV
+        <div className="Content-Div">
+            <div className="Content-Header">
+                <h1>Contact</h1>
+            </div>
         </div>
     );
 }

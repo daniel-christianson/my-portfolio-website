@@ -1,20 +1,9 @@
-.App {
+.App-Div {
   text-align: center;
   background-color: #282c34;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 10s linear;
-  }
-}
-
-.App-header {
+.App-Header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,8 +17,48 @@
   color: #61dafb;
 }
 
-.Content-div {
-  background-color: #000;
+h1 {
+  margin: 0;
+  margin-top: 5vh;
+}
+
+a {
+  color: #686c74;
+}
+a:hover {
+  color: #fff;
+}
+
+ul {
+  padding: 0 2vw;
+  color: white;
+}
+
+li {
+  position: relative;
+  display: inline;
+  z-index: 2;
+  border-right: .25vw solid #121218;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.Home-Header {
+  position: relative;
+  top: -25vh;
+}
+
+.Content-Header {
+  position: relative;
+  top: -15vmax;
+  z-index:1;
+  /*background-color: rgba(0,0,0,1);*/
+}
+
+.Content-Div {
+  /*background-color: #000;*/
   margin: 1vw 0;
   padding: 3vw;
   min-height: 25vh;
@@ -38,40 +67,39 @@
   top: 20vmax;
 }
 
-h1 {
-  margin: 0;
-  margin-top: 5vh;
+.Home-Nav-List-Item {
+  top: -4vh;
 }
 
-ul {
-  padding: 0 2vw;
-  color: white;
-}
-.Home-Div {
-  position: relative;
-  top: -5vh;
-}
-
-.Nav-List {
-  position: absolute;
-  top: 10vmax;
+.Home-Nav-List-Item-Selected {
+  top: -4vh;
+  padding: 0 2.5vw;
+  height: 50vh;
+  color: #484c54;
 }
 
 .Nav-List-Item {
-  display: inline;
+  top: -40vh;
+}
+
+.Nav-List-Item-Selected {
+  top: -40vh;
+  padding: 0 2.5vw;
+  height: 50vh;
+  color: #484c54;
 }
 
 .Link-Tag {
-  background-color: #172234;
-  margin: .5vw;
-  padding: 1.5vw 2vw;
+  margin: .25vw;
+  padding: 1.5vw 2.25vw;
+  text-decoration: none;
+  color: #686c74;
 }
 
-.Resume-Iframe {
-  width: 90vw;
-  height: 50vh;
+.Link-Tag:hover {
+  color: #fff;
 }
 
-.Portfolio-List {
-  list-style: none;
+.Link-Tag:active {
+  color: #172234;
 }

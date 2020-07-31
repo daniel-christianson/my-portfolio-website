@@ -1,0 +1,13 @@
+.Show-Hide-Button {
+    border: .5vmin solid #686c74;
+    padding: .5vw 43vw;
+    font-size: calc(5px + 2vmin);
+    color: #fff;
+    /*border-radius: 1vmin;*/
+    background-color: #282c34;
+}
+
+.Resume-Iframe {
+    width: 90vw;
+    height: 100vh;
+}

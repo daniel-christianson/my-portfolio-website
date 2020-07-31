@@ -1,0 +1,7 @@
+.Portfolio-List {
+    list-style: none;
+}
+
+.Portfolio-List li {
+    display: block;
+}

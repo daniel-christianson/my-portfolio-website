@@ -1,23 +1,58 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../App.css';
+import './rsm.css';
 import resumePdf from './daniel christianson resume 2020-07-30.pdf';
 
+function ShowHideButton(){
+    const [buttonState, setButtonState] = useState(false);
+    const [buttonTitle, setButtonTitle] = useState("Show");
+    function onClickFunction(){
+        if(buttonState === true){
+            setButtonState(false);
+            setButtonTitle("Show");
+        } else {
+            setButtonState(true);
+            setButtonTitle("Hide");
+        }
+    }
+    return (
+        <div>
+            <button className="Show-Hide-Button" onClick={onClickFunction}>{buttonTitle}</button>
+            {buttonState ? <HiddenContent /> : null}
+        </div>
+    );
+}
+
+// custom func for an iframe container to show/hide PDF
 function IFrame(props){
     return(
         <div>
-            <iframe className="Resume-Iframe" name={props.name} src={props.src} /*height={props.height} width={props.width}*/ />
+            <iframe className="Resume-Iframe" name={props.name} src={props.src} />
+        </div>
+    );
+}
+
+function HiddenContent(){
+    return(
+        <div>
+            <IFrame name="resume" src={resumePdf}/>
         </div>
     );
 }
 
 function Resume() {
+
     return(
-        <div className="Content-div">
+        <div className="Content-Div">
+            <div className="Content-Header">
+                <h1>Resume</h1>
+            </div>
             <a href={resumePdf}>Direct Download</a>
             <br /><br />
-            <IFrame name="resume" src={resumePdf} />
+
+            <ShowHideButton />
         </div>
     );
 }
-
+//style={{ display: state ? "block" : "none" }}
 export default Resume;
