@@ -1,0 +1,26 @@
+.Home-List {
+    position: relative;
+    top: 2vh;
+    left: 1vw;
+    right: 1vw;
+}
+
+.Home-List-Item {
+    z-index: 3;
+    padding: 0 2.5vw;
+    height: 50vh;
+    border: none;
+    top: -1vh;
+}
+
+.Home-Link {
+    padding: 1.5vw 1.5vw;
+}
+
+.Home-Icons {
+    position: relative;
+    top: .5vh;
+    height: 1em;
+    width: 1em;
+    border-radius: .25vw;
+}

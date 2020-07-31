@@ -13,10 +13,10 @@ function NavigationListItems(){
     const location = useLocation();
     const links = navigationArray.map(function(item){
         if (location.pathname === "/home" && location.pathname === ("/" + item.name)){
-            // homepage list items (no home list item will appear when on the homepage)
+            // create homepage li's (suppress home li)
             return null;
         } else if (location.pathname === "/home" && location.pathname !== ("/" + item.name)){
-            // homepage list items (all other list items when on the homepage)
+            // create homepage li's (create all other li's)
             return(
                 <li className="Home-Nav-List-Item">
                     <Link className="Link-Tag" to={"/" + item.name}>
@@ -25,14 +25,14 @@ function NavigationListItems(){
                 </li>
             );
         } else if (location.pathname === ("/" + item.name)){
-            // non-homepage list items (current page list item is not a link)
+            // create non-homepage li's (li for current page is not a link)
             return(
                 <li className="Nav-List-Item-Selected">
                     {item.name.charAt(0).toUpperCase() + item.name.slice(1)}
                 </li>
             );
         } else {
-            // non-homepage list items (all other list items when NOT on homepage)
+            // create non-homepage li's (create all other li's when NOT on homepage)
             return(
                 <li className="Nav-List-Item">
                     <Link className="Link-Tag" to={"/" + item.name}>

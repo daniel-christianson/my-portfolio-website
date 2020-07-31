@@ -4,4 +4,5 @@
 
 .Portfolio-List li {
     display: block;
+    border: none;
 }

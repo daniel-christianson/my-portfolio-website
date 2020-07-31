@@ -13,13 +13,13 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 h1 {
   margin: 0;
   margin-top: 5vh;
+}
+
+h2 {
+  margin: 2vh;
 }
 
 a {
@@ -31,7 +31,7 @@ a:hover {
 
 ul {
   padding: 0 2vw;
-  color: white;
+  /*color: white;*/
 }
 
 li {
@@ -46,24 +46,29 @@ li:last-child {
 }
 
 .Home-Header {
-  position: relative;
-  top: -25vh;
+  position: fixed;
+  top: 8vmax;
+  left: 2vmin;
+  right: 2vmin;
 }
 
 .Content-Header {
-  position: relative;
-  top: -15vmax;
+  position: absolute;
+  top: -10vmax;
+  left: 2vmin;
+  right: 2vmin;
   z-index:1;
   /*background-color: rgba(0,0,0,1);*/
 }
 
 .Content-Div {
-  /*background-color: #000;*/
-  margin: 1vw 0;
-  padding: 3vw;
-  min-height: 25vh;
-  width: 90vw;
+  background-color: #282c34;
+  /*background-color: #ffff00;*/
   position: absolute;
+  margin: 1vw 0;
+  padding: 0 0 10vh 0;
+  min-height: 25vh;
+  width: 100%;
   top: 20vmax;
 }
 
@@ -96,10 +101,20 @@ li:last-child {
   color: #686c74;
 }
 
-.Link-Tag:hover {
-  color: #fff;
+@media (max-width: 500px){
+  .Nav-List-Item-Selected {
+    padding: 0 1vw;
+  }
 }
 
-.Link-Tag:active {
-  color: #172234;
+@media (max-width: 500px){
+  .Link-Tag {
+    padding: 1vw .75vw;
+  }
+}
+
+@media (max-height: 500px){
+  .Home-Nav-List-Item {
+    top: 5vw;
+  }
 }

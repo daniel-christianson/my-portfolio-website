@@ -9,7 +9,7 @@ function About() {
             </div>
             - SMALL BIO GOES HERE -<br /><br />
             - BRIEF EDUCATION HISTORY GOES HERE -<br /><br />
-            <a href="https://www.linkedin.com/in/daniel-s-christianson">linkedin.com/in/daniel-s-christianson</a>
+            <a href="https://www.linkedin.com/in/daniel-s-christianson">linkedin</a>
         </div>
     );
 }

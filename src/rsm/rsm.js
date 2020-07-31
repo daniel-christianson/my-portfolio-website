@@ -17,7 +17,9 @@ function ShowHideButton(){
     }
     return (
         <div>
-            <button className="Show-Hide-Button" onClick={onClickFunction}>{buttonTitle}</button>
+            <button className="Show-Hide-Button" onClick={onClickFunction}>
+                {buttonTitle}
+            </button>
             {buttonState ? <HiddenContent /> : null}
         </div>
     );
@@ -47,9 +49,8 @@ function Resume() {
             <div className="Content-Header">
                 <h1>Resume</h1>
             </div>
-            <a href={resumePdf}>Direct Download</a>
+            <a href={resumePdf} download>Direct Download</a>
             <br /><br />
-
             <ShowHideButton />
         </div>
     );
