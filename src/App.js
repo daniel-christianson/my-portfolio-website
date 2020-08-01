@@ -18,7 +18,7 @@ function NavigationListItems(){
         } else if (location.pathname === "/home" && location.pathname !== ("/" + item.name)){
             // create homepage li's (create all other li's)
             return(
-                <li className="Home-Nav-List-Item">
+                <li className="Home-Nav-List-Item" key={item.name}>
                     <Link className="Link-Tag" to={"/" + item.name}>
                         {item.name.charAt(0).toUpperCase() + item.name.slice(1)}
                     </Link>
@@ -27,14 +27,14 @@ function NavigationListItems(){
         } else if (location.pathname === ("/" + item.name)){
             // create non-homepage li's (li for current page is not a link)
             return(
-                <li className="Nav-List-Item-Selected">
+                <li className="Nav-List-Item-Selected" key={item.name}>
                     {item.name.charAt(0).toUpperCase() + item.name.slice(1)}
                 </li>
             );
         } else {
             // create non-homepage li's (create all other li's when NOT on homepage)
             return(
-                <li className="Nav-List-Item">
+                <li className="Nav-List-Item" key={item.name}>
                     <Link className="Link-Tag" to={"/" + item.name}>
                         {item.name.charAt(0).toUpperCase() + item.name.slice(1)}
                     </Link>
@@ -48,7 +48,7 @@ function NavigationListItems(){
 }
 
 function Routes(){
-    const routes = navigationArray.map(item => (<Route path={"/" + item.name}>{item.dv}</Route>));
+    const routes = navigationArray.map(item => (<Route path={"/" + item.name} key={"route-" + item.name}>{item.dv}</Route>));
     return(
         routes
     );

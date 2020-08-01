@@ -29,7 +29,7 @@ function ShowHideButton(){
 function IFrame(props){
     return(
         <div>
-            <iframe className="Resume-Iframe" name={props.name} src={props.src} />
+            <iframe className="Resume-Iframe" name={props.name} src={props.src} title="Resume" />
         </div>
     );
 }
