@@ -1,3 +1,11 @@
+# Personal Portfolio Website:
+
+This is a simple portfolio website I'm creating to showcase different things I've worked on.
+
+For the live version see [here](https://danielchristianson.art).
+
+# Default Notes:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
