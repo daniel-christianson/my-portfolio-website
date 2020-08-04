@@ -1,8 +1,10 @@
 .Portfolio-List {
     list-style: none;
+    margin-top: 10vh;
 }
 
 .Portfolio-List li {
     display: block;
     border: none;
+    color: #686c74;
 }

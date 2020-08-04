@@ -12,14 +12,14 @@ function About() {
             </div>
             <div className="About-Div">
                 <p>
-                    I'm an IT support specialist of 7 years working out of the Minneapolis area in MN.
-                    My education background was in media arts and fine arts, but for now I've found a stable career
-                    in technology.
+                    I'm an IT support technician of 7 years working out of the Minneapolis, MN area.
+                    My education background was in media arts, animation, and fine arts; but for now
+                    I've found a stable career in technology.
                 </p>
                 <p>
-                    I really enjoy project-based work and after a lot personal projects and on-job scripting
+                    I really enjoy project-based work and after a lot of personal projects and on-job scripting
                     experience, I've been trying to step up my game and learn programming. I built this website
-                    with Javascript and React. For more examples of my work please browse my website here or check
+                    with React. For more examples of my work please browse my website here or check
                     out my github.
                 </p>
             </div>
