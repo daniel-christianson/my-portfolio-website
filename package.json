@@ -1,5 +1,5 @@
 {
-  "homepage": "https://danielchristianson.art/home",
+  "homepage": "http://daniel-christianson.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +13,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "clean": "gh-pages-clean",
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
