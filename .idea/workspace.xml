@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ce99df8-53f9-4a80-bb82-9f339c1fc2df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -71,7 +77,7 @@
       <updated>1595365713885</updated>
       <workItem from="1595365716481" duration="1524000" />
       <workItem from="1595373352210" duration="1556000" />
-      <workItem from="1595431043425" duration="138093000" />
+      <workItem from="1595431043425" duration="139511000" />
     </task>
     <task id="LOCAL-00001" summary="set up initial navigation tabs with useState">
       <created>1595474149098</created>
@@ -164,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596515617151</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added cname file to root folder">
+      <created>1596516458037</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1596516458038</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +197,8 @@
     <MESSAGE value="updates to about page" />
     <MESSAGE value="changed some styles" />
     <MESSAGE value="updated README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated README.md" />
+    <MESSAGE value="added cname file to root folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="added cname file to root folder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="320" key="#Notifications" timestamp="1595467426984">
@@ -203,10 +217,10 @@
       <screen x="0" y="0" width="1440" height="896" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.896@0.0.1440.896" timestamp="1596081144625" />
-    <state x="317" y="23" key="CommitChangelistDialog2" timestamp="1596515616935">
+    <state x="317" y="23" key="CommitChangelistDialog2" timestamp="1596516457863">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
-    <state x="317" y="23" key="CommitChangelistDialog2/0.0.1440.896@0.0.1440.896" timestamp="1596515616935" />
+    <state x="317" y="23" key="CommitChangelistDialog2/0.0.1440.896@0.0.1440.896" timestamp="1596516457863" />
     <state x="589" y="354" key="Github.ShareDialog" timestamp="1595459381119">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
