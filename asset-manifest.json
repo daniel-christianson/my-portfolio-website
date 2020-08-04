@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.60fc60e8.chunk.css",
-    "main.js": "/home/static/js/main.bf0b63b9.chunk.js",
-    "main.js.map": "/home/static/js/main.bf0b63b9.chunk.js.map",
-    "runtime-main.js": "/home/static/js/runtime-main.c71ad327.js",
-    "runtime-main.js.map": "/home/static/js/runtime-main.c71ad327.js.map",
-    "static/js/2.dd58124c.chunk.js": "/home/static/js/2.dd58124c.chunk.js",
-    "static/js/2.dd58124c.chunk.js.map": "/home/static/js/2.dd58124c.chunk.js.map",
-    "index.html": "/home/index.html",
-    "precache-manifest.d8677e10e6576fd0be626b0f71d56779.js": "/home/precache-manifest.d8677e10e6576fd0be626b0f71d56779.js",
-    "service-worker.js": "/home/service-worker.js",
-    "static/css/main.60fc60e8.chunk.css.map": "/home/static/css/main.60fc60e8.chunk.css.map",
-    "static/js/2.dd58124c.chunk.js.LICENSE.txt": "/home/static/js/2.dd58124c.chunk.js.LICENSE.txt",
-    "static/media/daniel christianson resume 2020-07-30.pdf": "/home/static/media/daniel christianson resume 2020-07-30.3393a3c1.pdf",
-    "static/media/github.png": "/home/static/media/github.ff91f4bf.png"
+    "main.css": "/portfolio/static/css/main.60fc60e8.chunk.css",
+    "main.js": "/portfolio/static/js/main.66afdf5b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.66afdf5b.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.dd58124c.chunk.js": "/portfolio/static/js/2.dd58124c.chunk.js",
+    "static/js/2.dd58124c.chunk.js.map": "/portfolio/static/js/2.dd58124c.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.e20a954c1fbe88d3b4f7e3a8a5895702.js": "/portfolio/precache-manifest.e20a954c1fbe88d3b4f7e3a8a5895702.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.60fc60e8.chunk.css.map": "/portfolio/static/css/main.60fc60e8.chunk.css.map",
+    "static/js/2.dd58124c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dd58124c.chunk.js.LICENSE.txt",
+    "static/media/daniel christianson resume 2020-07-30.pdf": "/portfolio/static/media/daniel christianson resume 2020-07-30.3393a3c1.pdf",
+    "static/media/github.png": "/portfolio/static/media/github.ff91f4bf.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c71ad327.js",
+    "static/js/runtime-main.209c2d7e.js",
     "static/js/2.dd58124c.chunk.js",
     "static/css/main.60fc60e8.chunk.css",
-    "static/js/main.bf0b63b9.chunk.js"
+    "static/js/main.66afdf5b.chunk.js"
   ]
 }
