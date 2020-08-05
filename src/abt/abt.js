@@ -22,17 +22,17 @@ function About() {
                     with React. For more examples of my work please browse my website here or check
                     out my github.
                 </p>
+                <ul className="Home-List">
+                    <li className="Home-List-Item" key="home-linkedin-icon">
+                        <img src={linkedinIcon} className="Home-Icons" alt="" />
+                        <a className="Home-Link" href="https://www.linkedin.com/in/daniel-s-christianson">linkedin</a>
+                    </li>
+                    <li className="Home-List-Item" key="home-github-icon">
+                        <img src={githubIcon} className="Home-Icons" alt="" />
+                        <a className="Home-Link" href="https://github.com/daniel-christianson">github</a>
+                    </li>
+                </ul>
             </div>
-            <ul className="Home-List">
-                <li className="Home-List-Item" key="home-linkedin-icon">
-                    <img src={linkedinIcon} className="Home-Icons" alt="" />
-                    <a className="Home-Link" href="https://www.linkedin.com/in/daniel-s-christianson">linkedin</a>
-                </li>
-                <li className="Home-List-Item" key="home-github-icon">
-                    <img src={githubIcon} className="Home-Icons" alt="" />
-                    <a className="Home-Link" href="https://github.com/daniel-christianson">github</a>
-                </li>
-            </ul>
         </div>
     );
 }

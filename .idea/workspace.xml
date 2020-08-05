@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ce99df8-53f9-4a80-bb82-9f339c1fc2df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cnt/cnt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prg/prg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abt/abt.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/abt/abt.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abt/abt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/abt/abt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cnt/cnt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cnt/cnt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prg/prg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/prg/prg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prt/prt.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/prt/prt.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +87,7 @@
       <updated>1595365713885</updated>
       <workItem from="1595365716481" duration="1524000" />
       <workItem from="1595373352210" duration="1556000" />
-      <workItem from="1595431043425" duration="144670000" />
+      <workItem from="1595431043425" duration="146456000" />
     </task>
     <task id="LOCAL-00001" summary="set up initial navigation tabs with useState">
       <created>1595474149098</created>
@@ -242,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596596031102</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="changed package.json to troubleshoot gh-pages 2">
+      <created>1596596238836</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1596596238836</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +285,8 @@
     <MESSAGE value="changed repo name to fix page routing conflicts" />
     <MESSAGE value="added redirect path from root to home" />
     <MESSAGE value="changed package.json to troubleshoot gh-pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed package.json to troubleshoot gh-pages" />
+    <MESSAGE value="changed package.json to troubleshoot gh-pages 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed package.json to troubleshoot gh-pages 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="320" key="#Notifications" timestamp="1595467426984">
@@ -289,10 +305,10 @@
       <screen x="0" y="0" width="1440" height="896" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.896@0.0.1440.896" timestamp="1596081144625" />
-    <state x="317" y="23" key="CommitChangelistDialog2" timestamp="1596596030934">
+    <state x="317" y="23" key="CommitChangelistDialog2" timestamp="1596596238677">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
-    <state x="317" y="23" key="CommitChangelistDialog2/0.0.1440.896@0.0.1440.896" timestamp="1596596030934" />
+    <state x="317" y="23" key="CommitChangelistDialog2/0.0.1440.896@0.0.1440.896" timestamp="1596596238677" />
     <state x="589" y="354" key="Github.ShareDialog" timestamp="1595459381119">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
@@ -305,10 +321,10 @@
       <screen x="0" y="0" width="1440" height="896" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.896@0.0.1440.896" timestamp="1595457892977" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1596596056737">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1596596270902">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.896@0.0.1440.896" timestamp="1596596056737" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.896@0.0.1440.896" timestamp="1596596270902" />
     <state x="478" y="346" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596594270125">
       <screen x="0" y="0" width="1440" height="896" />
     </state>

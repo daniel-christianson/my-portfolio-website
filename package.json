@@ -1,6 +1,8 @@
 {
   "homepage": "https://danielchristianson.art",
-  "name": "portfolio",
+  "name": "my-portfolio-website",
+  "description": "My personal resume and portfolio website.",
+  "author": "Daniel Christianson",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
