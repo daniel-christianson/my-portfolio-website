@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.60fc60e8.chunk.css",
-    "main.js": "/portfolio/static/js/main.66afdf5b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.66afdf5b.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.dd58124c.chunk.js": "/portfolio/static/js/2.dd58124c.chunk.js",
-    "static/js/2.dd58124c.chunk.js.map": "/portfolio/static/js/2.dd58124c.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.e20a954c1fbe88d3b4f7e3a8a5895702.js": "/portfolio/precache-manifest.e20a954c1fbe88d3b4f7e3a8a5895702.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.60fc60e8.chunk.css.map": "/portfolio/static/css/main.60fc60e8.chunk.css.map",
-    "static/js/2.dd58124c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dd58124c.chunk.js.LICENSE.txt",
-    "static/media/daniel christianson resume 2020-07-30.pdf": "/portfolio/static/media/daniel christianson resume 2020-07-30.3393a3c1.pdf",
-    "static/media/github.png": "/portfolio/static/media/github.ff91f4bf.png"
+    "main.css": "/my-portfolio-website/static/css/main.60fc60e8.chunk.css",
+    "main.js": "/my-portfolio-website/static/js/main.9f3c9a57.chunk.js",
+    "main.js.map": "/my-portfolio-website/static/js/main.9f3c9a57.chunk.js.map",
+    "runtime-main.js": "/my-portfolio-website/static/js/runtime-main.d7051dc5.js",
+    "runtime-main.js.map": "/my-portfolio-website/static/js/runtime-main.d7051dc5.js.map",
+    "static/js/2.dd58124c.chunk.js": "/my-portfolio-website/static/js/2.dd58124c.chunk.js",
+    "static/js/2.dd58124c.chunk.js.map": "/my-portfolio-website/static/js/2.dd58124c.chunk.js.map",
+    "index.html": "/my-portfolio-website/index.html",
+    "precache-manifest.7d46d74fb32d9c0f97932ee3e39ebc4e.js": "/my-portfolio-website/precache-manifest.7d46d74fb32d9c0f97932ee3e39ebc4e.js",
+    "service-worker.js": "/my-portfolio-website/service-worker.js",
+    "static/css/main.60fc60e8.chunk.css.map": "/my-portfolio-website/static/css/main.60fc60e8.chunk.css.map",
+    "static/js/2.dd58124c.chunk.js.LICENSE.txt": "/my-portfolio-website/static/js/2.dd58124c.chunk.js.LICENSE.txt",
+    "static/media/daniel christianson resume 2020-07-30.pdf": "/my-portfolio-website/static/media/daniel christianson resume 2020-07-30.3393a3c1.pdf",
+    "static/media/github.png": "/my-portfolio-website/static/media/github.ff91f4bf.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.209c2d7e.js",
+    "static/js/runtime-main.d7051dc5.js",
     "static/js/2.dd58124c.chunk.js",
     "static/css/main.60fc60e8.chunk.css",
-    "static/js/main.66afdf5b.chunk.js"
+    "static/js/main.9f3c9a57.chunk.js"
   ]
 }
