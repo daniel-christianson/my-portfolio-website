@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0ce99df8-53f9-4a80-bb82-9f339c1fc2df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <updated>1595365713885</updated>
       <workItem from="1595365716481" duration="1524000" />
       <workItem from="1595373352210" duration="1556000" />
-      <workItem from="1595431043425" duration="144034000" />
+      <workItem from="1595431043425" duration="144496000" />
     </task>
     <task id="LOCAL-00001" summary="set up initial navigation tabs with useState">
       <created>1595474149098</created>
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596594498544</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added redirect path from root to home">
+      <created>1596595078796</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1596595078796</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +262,8 @@
     <MESSAGE value="updated package.json; added image files" />
     <MESSAGE value="updated package.json; troubleshooting homepage property" />
     <MESSAGE value="changed repo name to fix page routing conflicts" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed repo name to fix page routing conflicts" />
+    <MESSAGE value="added redirect path from root to home" />
+    <option name="LAST_COMMIT_MESSAGE" value="added redirect path from root to home" />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="320" key="#Notifications" timestamp="1595467426984">
@@ -274,10 +282,10 @@
       <screen x="0" y="0" width="1440" height="896" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.896@0.0.1440.896" timestamp="1596081144625" />
-    <state x="317" y="23" key="CommitChangelistDialog2" timestamp="1596594498379">
+    <state x="317" y="23" key="CommitChangelistDialog2" timestamp="1596595078616">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
-    <state x="317" y="23" key="CommitChangelistDialog2/0.0.1440.896@0.0.1440.896" timestamp="1596594498379" />
+    <state x="317" y="23" key="CommitChangelistDialog2/0.0.1440.896@0.0.1440.896" timestamp="1596595078616" />
     <state x="589" y="354" key="Github.ShareDialog" timestamp="1595459381119">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
@@ -290,10 +298,10 @@
       <screen x="0" y="0" width="1440" height="896" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.896@0.0.1440.896" timestamp="1595457892977" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1596594506947">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1596595084802">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.896@0.0.1440.896" timestamp="1596594506947" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.896@0.0.1440.896" timestamp="1596595084802" />
     <state x="478" y="346" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596594270125">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
