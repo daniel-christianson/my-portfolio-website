@@ -4,6 +4,7 @@ import {
     Switch,
     Route,
     Link,
+    Redirect,
     useLocation
 } from "react-router-dom";
 import './App.css';
@@ -63,6 +64,7 @@ function App(){
                         <NavigationListItems />
                     </ul>
                     <Switch>
+                        <Redirect exact from='/' to='/home' />
                         <Routes />
                     </Switch>
                 </header>
