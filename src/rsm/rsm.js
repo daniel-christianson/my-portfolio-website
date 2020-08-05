@@ -5,7 +5,7 @@ import resumePdf from './daniel christianson resume 2020-07-30.pdf';
 
 function ShowHideButton(){
     const [buttonState, setButtonState] = useState(false);
-    const [buttonTitle, setButtonTitle] = useState("Show");
+    const [buttonTitle, setButtonTitle] = useState("View");
     function onClickFunction(){
         if(buttonState === true){
             setButtonState(false);
