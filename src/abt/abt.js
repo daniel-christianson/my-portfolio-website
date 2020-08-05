@@ -19,8 +19,12 @@ function About() {
                 <p>
                     I really enjoy project-based work and after a lot of personal projects and on-job scripting
                     experience, I've been trying to step up my game and learn programming. I built this website
-                    with React. For more examples of my work please browse my website here or check
-                    out my github.
+                    with React. For more examples of my work please browse this website or check
+                    out my GitHub.
+                </p>
+                <p>
+                    <b><u>Note</u>:</b> There's not much to see here currently. I will try to post updates frequently.
+                    For now please check GitHub.
                 </p>
                 <ul className="Home-List">
                     <li className="Home-List-Item" key="home-linkedin-icon">

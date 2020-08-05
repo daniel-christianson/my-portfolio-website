@@ -9,7 +9,7 @@ function ShowHideButton(){
     function onClickFunction(){
         if(buttonState === true){
             setButtonState(false);
-            setButtonTitle("Show");
+            setButtonTitle("View");
         } else {
             setButtonState(true);
             setButtonTitle("Hide");
