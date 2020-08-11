@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ce99df8-53f9-4a80-bb82-9f339c1fc2df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cnt/cnt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cnt/cnt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rsm/daniel christianson resume 2020-07-30.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rsm/rsm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/rsm/rsm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +70,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
@@ -79,7 +83,8 @@
       <updated>1595365713885</updated>
       <workItem from="1595365716481" duration="1524000" />
       <workItem from="1595373352210" duration="1556000" />
-      <workItem from="1595431043425" duration="147455000" />
+      <workItem from="1595431043425" duration="147664000" />
+      <workItem from="1596601130619" duration="4047000" />
     </task>
     <task id="LOCAL-00001" summary="set up initial navigation tabs with useState">
       <created>1595474149098</created>
@@ -263,11 +268,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596599743217</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="updated rsm.js">
+      <created>1596599884761</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1596599884761</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="set up initial navigation tabs with useState" />
@@ -294,7 +306,8 @@
     <MESSAGE value="changed package.json to troubleshoot gh-pages 2" />
     <MESSAGE value="added properties to package.json; added more styles" />
     <MESSAGE value="updated abt.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated abt.js" />
+    <MESSAGE value="updated rsm.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated rsm.js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="320" key="#Notifications" timestamp="1595467426984">
@@ -313,10 +326,10 @@
       <screen x="0" y="0" width="1440" height="896" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.896@0.0.1440.896" timestamp="1596081144625" />
-    <state x="317" y="23" key="CommitChangelistDialog2" timestamp="1596599743054">
+    <state x="317" y="23" key="CommitChangelistDialog2" timestamp="1596599884610">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
-    <state x="317" y="23" key="CommitChangelistDialog2/0.0.1440.896@0.0.1440.896" timestamp="1596599743054" />
+    <state x="317" y="23" key="CommitChangelistDialog2/0.0.1440.896@0.0.1440.896" timestamp="1596599884610" />
     <state x="589" y="354" key="Github.ShareDialog" timestamp="1595459381119">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
@@ -329,10 +342,10 @@
       <screen x="0" y="0" width="1440" height="896" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.896@0.0.1440.896" timestamp="1595457892977" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1596599751682">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1596599887773">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.896@0.0.1440.896" timestamp="1596599751682" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.896@0.0.1440.896" timestamp="1596599887773" />
     <state x="478" y="346" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596594270125">
       <screen x="0" y="0" width="1440" height="896" />
     </state>

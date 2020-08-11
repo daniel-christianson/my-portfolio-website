@@ -11,6 +11,9 @@ function Contact() {
             </div>
             <div className="Contact-Div">
                 <p>daniel.s.christianson@gmail.com</p>
+                <form id="Contact-Form">
+
+                </form>
             </div>
         </div>
     );
