@@ -11,9 +11,27 @@ function Contact() {
             </div>
             <div className="Contact-Div">
                 <p>daniel.s.christianson@gmail.com</p>
-                <form id="Contact-Form">
-
-                </form>
+                <div className="Contact-Form">
+                    <form>
+                        <div className="Contact-Form-Group">
+                            <label>Name:</label>
+                            <input className="Contact-Form-Input" type="text" /><br /><br />
+                        </div>
+                        <div className="Contact-Form-Group">
+                            <label>Email:</label>
+                            <input className="Contact-Form-Input" type="text" /><br /><br />
+                        </div>
+                        <div className="Contact-Form-Group">
+                            <label>Subject:</label>
+                            <input className="Contact-Form-Input" type="text" /><br /><br />
+                        </div>
+                        <div className="Contact-Form-Group">
+                            <label>Message:</label>
+                            <textarea className="Contact-Form-Input" /><br /><br />
+                        </div>
+                        <button disabled={true} className="Contact-Form-Button" type="submit">Temporarily Disabled</button>
+                    </form>
+                </div>
             </div>
         </div>
     );

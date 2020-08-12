@@ -2,6 +2,63 @@
     position: relative;
     margin: auto;
     margin-top: 8vh;
-    width: 75vmin;
+    width: 90vmin;
     color: #686c74;
 }
+
+.Contact-Form {
+    width: 75vmin;
+    margin: auto;
+}
+
+.Contact-Form-Group {
+    text-align: left;
+}
+
+label {
+    /*margin-left: 1.5vmin;*/
+    /*margin-bottom: 5vmin;*/
+}
+
+.Contact-Form-Input {
+    margin-top: .5vmin;
+    width: 100%;
+    background-color: #686c74;
+    color: #282c34;
+    font: inherit;
+    font-weight: bold;
+    font-size: 75%;
+    border: none;
+    border-radius: .5vmin;
+    padding: .75vmin;
+}
+
+textarea {
+    height: 15vmax;
+    resize: none;
+}
+
+.Contact-Form-Button {
+    float: left;
+    border: .5vmin solid #686c74;
+    padding: 1vw;
+    width: 20vmax;
+    font-size: calc(5px + 2vmin);
+    color: #686c74;
+    border-radius: 1vmin;
+    background-color: #282c34;
+}
+
+/* TEMPORARY STYLES FOR DISABLED BUTTON */
+.Contact-Form-Button {
+    /*background-color: #484c54;*/
+    border: .5vmin solid #484c54;
+    color: #cc3333;
+
+}
+
+/*.Contact-Form-Button:hover {*/
+/*    color: #282c34;*/
+/*    background-color: #686c74;*/
+/*    font-weight: bold;*/
+/*}*/
