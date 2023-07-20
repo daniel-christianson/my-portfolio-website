@@ -7,24 +7,21 @@ import githubIcon from "../hom/github.png";
 function About() {
     return(
         <div className="Content-Div">
+            <div className="Title-Header">
+                <h1>Daniel Christianson</h1>
+            </div>
             <div className="Content-Header">
                 <h1>About</h1>
             </div>
             <div className="About-Div">
                 <p>
-                    I'm an IT support technician of 7 years working out of the Minneapolis, MN area.
-                    My education background was in media arts, animation, and fine arts; but for now
-                    I've found a stable career in technology.
+                    I'm an IT Support analyst with 10 years experience working in the Minneapolis area. After high school, I originally attended college to pursue a degree in visual arts, but I've always had an affinity for technology and a good eye for detail. I started working in IT during the spring of 2013 and have been in the field ever since. I enjoy projects, working on a team, problem solving, and the creation process.
                 </p>
                 <p>
-                    I really enjoy project-based work and after a lot of personal projects and on-job scripting
-                    experience, I've been trying to step up my game and learn programming. I built this website
-                    with React. For more examples of my work please browse this website or check
-                    out my GitHub.
+                    I first started teaching myself scripting and programming on the job using PowerShell, Visual Basic, and FoxPro. I wrote scripts to automate my workflow. I overhauled an old in-house FoxPro script and turned it into a program with a GUI that had different options for endusers. I wrote an automated email script with PowerShell and VBA to send emails Outlook. I've continued to study programming via personal projects and online courses at places like Pluralsight. For example, at Pluralsight I've taken around 25 courses covering a large range of topics including: C#, Python, Web Design, JavaScript, React, Angular, GIT, Node JS, and Express JS.
                 </p>
                 <p>
-                    <b><u>Note</u>:</b> There's not much to see here currently. I will try to post updates frequently.
-                    For now please check GitHub.
+                    I really enjoy project-based work and hope to continue down the path of programming for now. Please check out my resume and GitHub for more details and examples of things I've worked on.
                 </p>
                 <ul className="Home-List">
                     <li className="Home-List-Item" key="home-linkedin-icon">

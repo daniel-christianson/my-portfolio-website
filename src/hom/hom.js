@@ -9,7 +9,7 @@ function Home() {
         <div className="Content-Div">
             <div className="Home-Header">
                 <h1>Daniel Christianson</h1>
-                <h2>Resume and Portfolio</h2>
+                <h2 style={{color: "#888cb4"}}>Resume and Portfolio</h2>
                 <ul className="Home-List">
                     <li className="Home-List-Item" key="home-linkedin-icon">
                         <img src={linkedinIcon} className="Home-Icons" alt="" />

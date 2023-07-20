@@ -1,6 +1,19 @@
 .About-Div {
     position: relative;
     margin: auto;
-    width: 75vmin;
+    width: 75vw;
     color: #686c74;
+    top: 15vmin;
+}
+
+@media (max-width: 500px){
+    .About-Div {
+        top: 20vmin;
+    }
+}
+
+@media (max-width: 300px){
+    .About-Div {
+        top: 30vmin;
+    }
 }

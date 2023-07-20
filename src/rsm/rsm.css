@@ -1,6 +1,7 @@
 .Show-Hide-Button {
     position: relative;
-    padding: .5vw 40.5vw;
+    top: 35vmin;
+    padding: .5vw 41vw;
     font-size: calc(5px + 2vmin);
     color: #686c74;
     border: .5vmin solid #686c74;
@@ -15,6 +16,14 @@
 }
 
 .Resume-Iframe {
+    position: relative;
     width: 85vw;
     height: 100vh;
+    top: 35vmin;
+    margin-bottom: 36vmin;
+}
+
+.Resume-Download-Link {
+    position: relative;
+    top: 30vmin;
 }

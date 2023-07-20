@@ -2,6 +2,40 @@
     position: relative;
     margin: auto;
     margin-top: 8vh;
-    width: 75vmin;
+    width: 75vmax;
     color: #686c74;
+    top: 15vmin;
+}
+
+.Programming-List {
+    position: relative;
+    top: 20vmin;
+    list-style: none;
+    margin-top: 8vh;
+}
+
+.Programming-List li {
+    display: block;
+    border: none;
+    color: #686c74;
+}
+
+.Show-Hide-Content {
+    position: relative;
+    padding: 1vw 1vw;
+    font-size: calc(5px + 2vmin);
+    color: #686c74;
+    border: .5vmin solid #686c74;
+    /*border-radius: 1vmin;*/
+}
+
+.Show-Hide-Content:hover {
+    font-weight: bold;
+}
+
+.Code-Block {
+    position: relative;
+    width: 75vw;
+    margin: auto;
+    margin-bottom: 5vmin;
 }

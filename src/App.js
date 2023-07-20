@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import './App.css';
 import navigationArray from './Nav.js'
+import linkedinIcon from "./hom/linkedin.png";
+import githubIcon from "./hom/github.png";
 
 function NavigationListItems(){
     const location = useLocation();
@@ -56,16 +58,18 @@ function Routes(){
 }
 
 function App(){
-    return(
+    return (
         <Router>
             <div className="App-Div">
                 <header className="App-Header">
-                    <ul>
-                        <NavigationListItems />
-                    </ul>
+                    <div className="Nav-Div">
+                        <ul>
+                            <NavigationListItems/>
+                        </ul>
+                    </div>
                     <Switch>
-                        <Redirect exact from='/' to='/home' />
-                        <Routes />
+                        <Redirect exact from='/' to='/home'/>
+                        <Routes/>
                     </Switch>
                 </header>
             </div>

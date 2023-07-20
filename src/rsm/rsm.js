@@ -43,14 +43,15 @@ function HiddenContent(){
 }
 
 function Resume() {
-
     return(
         <div className="Content-Div">
+            <div className="Title-Header">
+                <h1>Daniel Christianson</h1>
+            </div>
             <div className="Content-Header">
                 <h1>Resume</h1>
             </div>
-            <a href={resumePdf} download>Direct Download</a>
-            <br /><br />
+            <a className="Resume-Download-Link" href={resumePdf} download>Direct Download</a>
             <ShowHideButton />
         </div>
     );
