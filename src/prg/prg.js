@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
 import '../App.css';
 import './prg.css';
-import { CodeBlock } from "react-code-blocks";
+import emailScript from './email-script/code-blocks.js';
+import aspectRatioScript from './aspect-ratio-script/code-blocks.js';
+import { CodeBlock, dracula, tomorrowNightBlue, tomorrowNightEighties } from "react-code-blocks";
 import githubIcon from "../hom/github.png";
 
 function ShowHideContent(props){
@@ -50,30 +52,125 @@ function Programming() {
             </div>
             <div>
                 <ul className="Programming-List">
+                    <h3>Find Aspect Ratio Script</h3>
                     <ShowHideContent
-                        titleInitialState="Email Script"
-                        titleOnClickStateTrue="Email Script"
-                        titleOnClickStateFalse="Email Script (click to hide)"
+                        titleInitialState="JavaScript"
+                        titleOnClickStateTrue="JavaScript"
+                        titleOnClickStateFalse="JavaScript (click to hide)"
                         showHideContentClass="Code-Block"
                         showHideContent={
-                            <CodeBlock
-                                text='console.log("Hello world");'
-                                language='javascript'
-                                showLineNumbers={true}
-                            />
+                            <React.Fragment>
+                                <p>find_aspect_ratio.js</p>
+                                <CodeBlock
+                                    text={aspectRatioScript.javaScript}
+                                    language='javascript'
+                                    showLineNumbers={true}
+                                    theme={dracula}
+                                />
+                            </React.Fragment>
                         }
                     />
                     <ShowHideContent
-                        titleInitialState="Find Aspect Ratio"
-                        titleOnClickStateTrue="Find Aspect Ratio"
-                        titleOnClickStateFalse="Find Aspect Ratio (click to hide)"
+                        titleInitialState="PowerShell"
+                        titleOnClickStateTrue="PowerShell"
+                        titleOnClickStateFalse="PowerShell (click to hide)"
                         showHideContentClass="Code-Block"
                         showHideContent={
-                            <CodeBlock
-                                text='console.log("Hello world");'
-                                language='javascript'
-                                showLineNumbers={true}
-                            />
+                            <React.Fragment>
+                                <p>find_aspect_ratio.ps1</p>
+                                <CodeBlock
+                                    text={aspectRatioScript.powerShell}
+                                    language='powershell'
+                                    showLineNumbers={true}
+                                    theme={tomorrowNightBlue}
+                                />
+                            </React.Fragment>
+                        }
+                    />
+                    <ShowHideContent
+                        titleInitialState="Python"
+                        titleOnClickStateTrue="Python"
+                        titleOnClickStateFalse="Python (click to hide)"
+                        showHideContentClass="Code-Block"
+                        showHideContent={
+                            <React.Fragment>
+                                <p>find_aspect_ratio.py</p>
+                                <CodeBlock
+                                    text={aspectRatioScript.python}
+                                    language='python'
+                                    showLineNumbers={true}
+                                    theme={tomorrowNightEighties}
+                                />
+                            </React.Fragment>
+                        }
+                    />
+                    <h3>SCCM Compliance Email Script</h3>
+                    <ShowHideContent
+                        titleInitialState="Main Run Script"
+                        titleOnClickStateTrue="Main Run Script"
+                        titleOnClickStateFalse="Main Run Script (click to hide)"
+                        showHideContentClass="Code-Block"
+                        showHideContent={
+                            <React.Fragment>
+                                <p>Send-ComplianceEmailsAUTO.ps1</p>
+                                <CodeBlock
+                                    text={emailScript.SendComplianceEmailsAUTO}
+                                    language='powershell'
+                                    showLineNumbers={true}
+                                    theme={tomorrowNightBlue}
+                                />
+                            </React.Fragment>
+                        }
+                    />
+                    <ShowHideContent
+                        titleInitialState="Run Excel Macro Script"
+                        titleOnClickStateTrue="Run Excel Macro Script"
+                        titleOnClickStateFalse="Run Excel Macro Script (click to hide)"
+                        showHideContentClass="Code-Block"
+                        showHideContent={
+                            <React.Fragment>
+                                <p>Run-ExcelComplianceMacros.ps1</p>
+                                <CodeBlock
+                                    text={emailScript.RunExcelComplianceMacros}
+                                    language='powershell'
+                                    showLineNumbers={true}
+                                    theme={tomorrowNightBlue}
+                                />
+                            </React.Fragment>
+                        }
+                    />
+                    <ShowHideContent
+                        titleInitialState="Send Compliance Emails Script"
+                        titleOnClickStateTrue="Send Compliance Emails Script"
+                        titleOnClickStateFalse="Send Compliance Emails Script (click to hide)"
+                        showHideContentClass="Code-Block"
+                        showHideContent={
+                            <React.Fragment>
+                                <p>Send-ComplianceEmails.ps1</p>
+                                <CodeBlock
+                                    text={emailScript.SendComplianceEmails}
+                                    language='powershell'
+                                    showLineNumbers={true}
+                                    theme={tomorrowNightBlue}
+                                />
+                            </React.Fragment>
+                        }
+                    />
+                    <ShowHideContent
+                        titleInitialState="Compliance VBA Macros"
+                        titleOnClickStateTrue="Compliance VBA Macros"
+                        titleOnClickStateFalse="Compliance VBA Macros (click to hide)"
+                        showHideContentClass="Code-Block"
+                        showHideContent={
+                            <React.Fragment>
+                                <p>ComplianceMacros.xlsm</p>
+                                <CodeBlock
+                                    text={emailScript.ComplianceMacros}
+                                    language='vbnet'
+                                    showLineNumbers={true}
+                                    theme={tomorrowNightEighties}
+                                />
+                            </React.Fragment>
                         }
                     />
                 </ul>

@@ -20,17 +20,22 @@
     color: #686c74;
 }
 
+h3 {
+    color: #586480;
+    margin-bottom: 1vmin;
+}
+
 .Show-Hide-Content {
     position: relative;
-    padding: 1vw 1vw;
+    padding: .5vw .5vw;
     font-size: calc(5px + 2vmin);
     color: #686c74;
     border: .5vmin solid #686c74;
-    /*border-radius: 1vmin;*/
+    text-decoration: underline;
 }
 
 .Show-Hide-Content:hover {
-    font-weight: bold;
+    color: white;
 }
 
 .Code-Block {
@@ -38,4 +43,7 @@
     width: 75vw;
     margin: auto;
     margin-bottom: 5vmin;
+    text-align: left;
+    font-family: "Fira Code", monospace;
+    font-size: calc(3px + 1.5vmin);
 }
