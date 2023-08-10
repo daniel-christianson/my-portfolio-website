@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ce99df8-53f9-4a80-bb82-9f339c1fc2df" name="Default Changelist" comment="updated main format of each page&#10;updated bio text on about page&#10;removed contact form for now&#10;updated programming page&#10;installed react-code-blocks library&#10;added minimizable li items for code blocks">
-      <change afterPath="$PROJECT_DIR$/src/prg/aspect-ratio-script/code-blocks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prg/email-script/code-blocks.js" afterDir="false" />
+    <list default="true" id="0ce99df8-53f9-4a80-bb82-9f339c1fc2df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prg/prg.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/prg/prg.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prg/prg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/prg/prg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prg/email-script/code-blocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/prg/email-script/code-blocks.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +83,7 @@
       <workItem from="1546300876602" duration="104000" />
       <workItem from="1629400743304" duration="347000" />
       <workItem from="1689301395461" duration="6072000" />
-      <workItem from="1689602738097" duration="75257000" />
+      <workItem from="1689602738097" duration="79084000" />
     </task>
     <task id="LOCAL-00001" summary="set up initial navigation tabs with useState">
       <created>1595474149098</created>
@@ -308,14 +302,20 @@
       <option name="project" value="LOCAL" />
       <updated>1689889682751</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="updated programming page&#10;added multiple code-blocks that can be expanded and minimized">
+      <created>1690876211283</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1690876211283</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated app.js to work with new navigation" />
     <MESSAGE value="updated navigation functionality to work with arr.map so navigation items are automated" />
     <MESSAGE value="navigation now removes current page from the list" />
     <MESSAGE value="updated some content pages, added resume" />
@@ -340,21 +340,22 @@
     <MESSAGE value="committed new resume file" />
     <MESSAGE value="updated resume&#10;added contact form&#10;updated styles" />
     <MESSAGE value="updated main format of each page&#10;updated bio text on about page&#10;removed contact form for now&#10;updated programming page&#10;installed react-code-blocks library&#10;added minimizable li items for code blocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated main format of each page&#10;updated bio text on about page&#10;removed contact form for now&#10;updated programming page&#10;installed react-code-blocks library&#10;added minimizable li items for code blocks" />
+    <MESSAGE value="updated programming page&#10;added multiple code-blocks that can be expanded and minimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated programming page&#10;added multiple code-blocks that can be expanded and minimized" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="25" width="831" height="823" key="CommitChangelistDialog2" timestamp="1689889915629">
+    <state x="304" y="25" width="831" height="823" key="CommitChangelistDialog2" timestamp="1690876210982">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="304" y="25" width="831" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1689889915629" />
+    <state x="304" y="25" width="831" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1690876210982" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1689893746908">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1689893746908" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1690875971984">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1690876425127">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1690875971984" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1690876425127" />
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1689889424140">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
