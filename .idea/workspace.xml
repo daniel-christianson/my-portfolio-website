@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ce99df8-53f9-4a80-bb82-9f339c1fc2df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/rsm/daniel christianson resume 2023-07-22.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rsm/daniel christianson resume 2020-08-12.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rsm/rsm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/rsm/rsm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +23,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1f2zaHS1I2hY8YYeN8mGBg5HQZm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/hom" />
@@ -85,7 +87,7 @@
       <workItem from="1546300876602" duration="104000" />
       <workItem from="1629400743304" duration="347000" />
       <workItem from="1689301395461" duration="6072000" />
-      <workItem from="1689602738097" duration="83950000" />
+      <workItem from="1689602738097" duration="85209000" />
     </task>
     <task id="LOCAL-00001" summary="set up initial navigation tabs with useState">
       <created>1595474149098</created>
@@ -318,14 +320,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691692458085</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="updated resume PDF&#10;Changed from React Router from BrowserRouter to HashRouter">
+      <created>1691773233910</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1691773233910</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="navigation now removes current page from the list" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="updated some content pages, added resume" />
     <MESSAGE value="changed navigation list behavior, added lots of styles" />
     <MESSAGE value="linkedin and github icons on homepage, more styles" />
@@ -350,21 +359,22 @@
     <MESSAGE value="updated main format of each page&#10;updated bio text on about page&#10;removed contact form for now&#10;updated programming page&#10;installed react-code-blocks library&#10;added minimizable li items for code blocks" />
     <MESSAGE value="updated programming page&#10;added multiple code-blocks that can be expanded and minimized" />
     <MESSAGE value="updated programming page&#10;added two new code-blocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated programming page&#10;added two new code-blocks" />
+    <MESSAGE value="updated resume PDF&#10;Changed from React Router from BrowserRouter to HashRouter" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated resume PDF&#10;Changed from React Router from BrowserRouter to HashRouter" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="25" width="831" height="823" key="CommitChangelistDialog2" timestamp="1691692457776">
+    <state x="304" y="25" width="831" height="823" key="CommitChangelistDialog2" timestamp="1691773233606">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="304" y="25" width="831" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1691692457776" />
+    <state x="304" y="25" width="831" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1691773233606" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1689893746908">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1689893746908" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1691692692263">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1691773265681">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1691692692263" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1691773265681" />
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1689889424140">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
