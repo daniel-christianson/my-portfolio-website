@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ce99df8-53f9-4a80-bb82-9f339c1fc2df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/rsm/daniel christianson resume 2023-07-22.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +85,7 @@
       <workItem from="1546300876602" duration="104000" />
       <workItem from="1629400743304" duration="347000" />
       <workItem from="1689301395461" duration="6072000" />
-      <workItem from="1689602738097" duration="85209000" />
+      <workItem from="1689602738097" duration="85616000" />
     </task>
     <task id="LOCAL-00001" summary="set up initial navigation tabs with useState">
       <created>1595474149098</created>
@@ -327,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691773233910</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Changed React Router from HashRouter back to BrowserRouter but added a basename property this time to see if it fixes routing issues">
+      <created>1691774905620</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1691774905620</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +340,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="updated some content pages, added resume" />
     <MESSAGE value="changed navigation list behavior, added lots of styles" />
     <MESSAGE value="linkedin and github icons on homepage, more styles" />
     <MESSAGE value="updates to about page" />
@@ -360,21 +364,22 @@
     <MESSAGE value="updated programming page&#10;added multiple code-blocks that can be expanded and minimized" />
     <MESSAGE value="updated programming page&#10;added two new code-blocks" />
     <MESSAGE value="updated resume PDF&#10;Changed from React Router from BrowserRouter to HashRouter" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated resume PDF&#10;Changed from React Router from BrowserRouter to HashRouter" />
+    <MESSAGE value="Changed React Router from HashRouter back to BrowserRouter but added a basename property this time to see if it fixes routing issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed React Router from HashRouter back to BrowserRouter but added a basename property this time to see if it fixes routing issues" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="25" width="831" height="823" key="CommitChangelistDialog2" timestamp="1691773233606">
+    <state x="304" y="25" width="831" height="823" key="CommitChangelistDialog2" timestamp="1691774905352">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="304" y="25" width="831" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1691773233606" />
+    <state x="304" y="25" width="831" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1691774905352" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1689893746908">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1689893746908" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1691773265681">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1691774919099">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1691773265681" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1691774919099" />
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1689889424140">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
