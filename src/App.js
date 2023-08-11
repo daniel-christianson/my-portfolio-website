@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
     Link,
@@ -9,8 +9,6 @@ import {
 } from "react-router-dom";
 import './App.css';
 import navigationArray from './Nav.js'
-import linkedinIcon from "./hom/linkedin.png";
-import githubIcon from "./hom/github.png";
 
 function NavigationListItems(){
     const location = useLocation();
